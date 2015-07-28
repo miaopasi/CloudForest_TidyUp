@@ -1,0 +1,55 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;CloudForest_TidyUp&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/plot/vg/vgimg/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/optimize/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/pointer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/ryanbressler/CloudForest/.git" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/matrix/.travis" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/nsf/gocode/_gccgo" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/nsf/gocode/_testing" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/ssa/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/blas/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/nsf/gocode/.git" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/stat/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/nsf/gocode/_goremote" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/blas/.git" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/cmd/fiximports/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/plot/vg/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/cmd/vet/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/graph/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/ssa/interp/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/floats/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/.git" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/cmd/callgraph/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/callgraph/cha/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/ssa/ssautil/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/types/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/refactor/eg/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/callgraph/rta/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/oracle/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/unit/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/lapack/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/cmd/stringer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/mobile/bind/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/mobile/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/gcimporter/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/cmd/cover/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/gccgoimporter/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/diff/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/mobile/.git" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/golang.org/x/tools/go/loader/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/ryanbressler/CloudForest/.idea" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/gonum/plot/.travis" />
+      <root url="file://$PROJECT_DIR$/../../../GoLang/src/github.com/ryanbressler/.idea" />
+    </excluded>
+  </library>
+</component>
