@@ -20,3 +20,59 @@ Prediction and Voting is done using Tree.Vote and CatBallotBox and NumBallotBox 
 VoteTallyer interface.
 
 */
+
+/*
+ToDo: Figure Out What is DenseCatFeature as input.
+ToDo: Figure Out How to call Adaboosttarget.
+
+
+*/
+
+/*
+Analysis of Calling Function:
+
+cattarget := fm.Data[targeti]
+classtargets := GetAllClassificationTargets(cattarget.(*DenseCatFeature))
+
+input is the CatFeature loaded from fm.Data[target].
+AdaboostTarget receive CatFeature.Copy().(CatFeature) as input.
+ToDo: Why need to copy while the others don't
+
+
+
+
+NewAdaBoostTarget is defined in adaboosttarget.go
+Input: CatFeature
+Output: AdaboostTarget pointer
+
+
+
+
+//NewAdaBoostTarget creates a categorical adaptive boosting target and initializes its weights.
+
+func NewAdaBoostTarget(f CatFeature) (abt *AdaBoostTarget) {
+	nCases := f.Length()
+	abt = &AdaBoostTarget{f, make([]float64, nCases)}
+	for i := range abt.Weights {
+		abt.Weights[i] = 1 / float64(nCases)
+	}
+	return
+}
+
+
+
+
+func GetAllClassificationTargets(f CatFeature) []Target {
+	costs := make(map[string]float64)
+	for _, cat := range f.(*DenseCatFeature).Back {
+		costs[cat] = 1.0
+	}
+	return []Target{f,
+		NewEntropyTarget(f),
+		NewAdaBoostTarget(f.Copy().(CatFeature)),
+		NewWRFTarget(f, costs),
+		//regret,
+	}
+
+}
+ */
